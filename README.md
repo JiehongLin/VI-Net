@@ -1,22 +1,11 @@
-# <center> VI-Net: Boosting Category-level 6D Object Pose Estimation via Learning Decoupled Rotations on the Spherical Representations
-<center> 
+# VI-Net
 
-**[Jiehong Lin](https://jiehonglin.github.io/), Zewei Wei, [Yabin Zhang](https://ybzh.github.io/),  [Kui Jia](http://kuijia.site/)**
+Code for "VI-Net: Boosting Category-level 6D Object Pose Estimation via Learning Decoupled Rotations on the Spherical Representations", ICCV 2023. [Arxiv](https://arxiv.org/abs/2308.09916)
 
 
-https://arxiv.org/abs/2308.09916
-
-ICCV 2023
-
+Created by **[Jiehong Lin](https://jiehonglin.github.io/), Zewei Wei, [Yabin Zhang](https://ybzh.github.io/),  [Kui Jia](http://kuijia.site/)**.
 
 ![image](https://github.com/JiehongLin/VI-Net/blob/main/doc/overview.png)
-
-</center>
-
-
-
-
-
 
 ## Requirements
 The code has been tested with
