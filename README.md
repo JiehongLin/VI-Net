@@ -50,6 +50,17 @@ python train.py --gpus 0 --dataset ${DATASET}
 ```
 The string "DATASET" could be set as `DATASET=REAL275` or `DATASET=CAMERA25`.
 
+## Citation
+If you find our work useful in your research, please consider citing:
+
+    @inproceedings{lin2023vi,
+      title={Vi-net: Boosting category-level 6d object pose estimation via learning decoupled rotations on the spherical representations},
+      author={Lin, Jiehong and Wei, Zewei and Zhang, Yabin and Jia, Kui},
+      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+      pages={14001--14011},
+      year={2023}
+    }
+    
 ## Acknowledgements
 
 Our implementation leverages the code from [NOCS](https://github.com/hughw19/NOCS_CVPR2019), [DualPoseNet](https://github.com/Gorilla-Lab-SCUT/DualPoseNet), and [SPD](https://github.com/mentian/object-deformnet).
