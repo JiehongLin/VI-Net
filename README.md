@@ -23,6 +23,10 @@ sh dependencies.sh
 
 Please refer to our another work of [Self-DPDN](https://github.com/JiehongLin/Self-DPDN).
 
+## Model and Result Download
+
+The trained models and test results are provided [here](https://drive.google.com/file/d/1t7Q6VxJXJFDh1nripFiLtaKPrrUgeYXR/view?usp=sharing).
+
 
 ## Network Training
 
@@ -46,7 +50,7 @@ The string "DATASET" could be set as `DATASET=REAL275` or `DATASET=CAMERA25`.
 To test the model, please run:
 
 ```
-python train.py --gpus 0 --dataset ${DATASET}
+python test.py --gpus 0 --dataset ${DATASET}
 ```
 The string "DATASET" could be set as `DATASET=REAL275` or `DATASET=CAMERA25`.
 
